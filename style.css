@@ -275,6 +275,14 @@ a,ul  {
  
   }
 
+  .hero_section p  {
+    margin-right: 4vh;
+  }
+
+  .hero_section a {
+    margin-left: 9vh;
+  }
+
 
  
 
@@ -329,6 +337,7 @@ a,ul  {
   .category {
      justify-content: space-around;
      text-align: center;
+ 
   }
 
   .conteiners {
@@ -344,6 +353,7 @@ a,ul  {
 
   .conteiners h1 {
     font-size: 15px;
+
   }
 
 
