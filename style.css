@@ -258,6 +258,10 @@ a,ul  {
     color: gray;
 }
 
+.hamburger {
+    display: none;
+}
+
 
 @media screen and (max-width:768px) {
     
@@ -324,12 +328,14 @@ a,ul  {
 
   .category {
      justify-content: space-around;
+     text-align: center;
   }
 
   .conteiners {
     grid-template-columns: repeat(2,2fr);
     margin: 0.5vh;
     gap: 1vh;
+    text-align: center;
   }
 
   .img {
@@ -345,6 +351,16 @@ a,ul  {
     width: 175px;
     border-radius: 10px;
   }
+
+ /* .trending_news .head_text h1 {
+    text-align: center;
+  }
+
+  .news_conteiner  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }*/
 
 }
  
