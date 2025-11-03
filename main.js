@@ -10,9 +10,13 @@ inp.addEventListener('keydown', (event) => {
 
         if(pattern.test(email)) {
            alert('Request sent successfully')
+           console.log(inp.value);
         } else {
             alert('Please enter a valid email')
         }
+
+   
+     
     }
 })
 
