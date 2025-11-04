@@ -266,6 +266,11 @@ a,ul  {
 @media screen and (max-width:768px) {
     
   
+   body {
+    text-align: center;
+    align-items: center;
+   }
+
   nav {
     justify-content: space-around;
     align-items: center;
@@ -384,7 +389,7 @@ a,ul  {
 
   .head_text3 {
     text-align: center;
-    margin-right: 2vh;
+    margin-right: 6vh;
   }
 
 
@@ -422,7 +427,8 @@ a,ul  {
      align-items: center;
      text-align: center;
      flex-direction: column;
-       margin-left: 10vh;
+       margin-left: 15vh;
+       gap: 1vh;
    }
 
    .sports_article img {
