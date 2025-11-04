@@ -348,7 +348,7 @@ a,ul  {
   }
 
   .img {
-    width: 200px;
+    width: 190px;
    
   }
 
@@ -375,11 +375,11 @@ a,ul  {
     align-items: center;
     text-align: center;
     margin-top: 2vh;
-    margin-right: 3vh;
+    margin-right: 1vh;
   }
 
   .head_text h1 {
-    margin-right: 4vh;
+    margin-right: 2vh;
   }
 
  
