@@ -334,7 +334,11 @@ a,ul  {
 
   .category {
      justify-content: space-around;
+     text-align: center;
+  }
 
+  .head_text2 {
+    margin-right: 5vh;
   }
 
   .conteiners {
