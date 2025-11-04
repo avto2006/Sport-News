@@ -427,12 +427,13 @@ a,ul  {
      align-items: center;
      text-align: center;
      flex-direction: column;
-       margin-left: 15vh;
-       gap: 1vh;
+     margin-left: 20vh;
+     gap: 1vh;
    }
 
    .sports_article img {
     width: 250px;
+    border-radius: 15px;
   
    }
 
