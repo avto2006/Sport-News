@@ -389,9 +389,32 @@ a,ul  {
 
 
   .recent_news {
+    text-align: center;
+     justify-content: center;
+  }
+
+  .recents{
+    align-items: center;
+     text-align: center;
+     flex-direction: column;
+     gap: 3vh;
+     justify-content: center;
+  }
+
+
+
+  .recent_1,.recent_2,.recents img {
+    width: 240px;
 
   }
- 
+
+  .recent_2 {
+    height: 25vh;
+  }
+
+
+  
+
 
 
 }
