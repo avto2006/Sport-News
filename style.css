@@ -276,12 +276,10 @@ a,ul  {
   }
 
   .hero_section p  {
-    margin-right: 4vh;
+    margin-right: 3vh;
   }
 
-  .hero_section a {
-    margin-left: 9vh;
-  }
+  
 
 
  
@@ -336,19 +334,18 @@ a,ul  {
 
   .category {
      justify-content: space-around;
-     text-align: center;
- 
+
   }
 
   .conteiners {
     grid-template-columns: repeat(2,2fr);
     margin: 0.5vh;
     gap: 1vh;
-    text-align: center;
   }
 
   .img {
     width: 200px;
+   
   }
 
   .conteiners h1 {
@@ -362,15 +359,23 @@ a,ul  {
     border-radius: 10px;
   }
 
- /* .trending_news .head_text h1 {
-    text-align: center;
+  .trending_news {
+     flex-direction: column;
+     justify-content: center;
   }
 
-  .news_conteiner  {
+  .news_conteiner{
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }*/
+    align-items: center;
+    text-align: center;
+    margin-top: 2vh;
+    margin-right: 1vh;
+  }
+
+ 
+
 
 }
  
