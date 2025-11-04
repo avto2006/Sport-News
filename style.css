@@ -32,6 +32,10 @@ header {
     margin-top: 1vh;
 }
 
+.imgg2 {
+  display: none;
+}
+
 .hh2 {
     font-weight: 999; 
     margin-left: 5vh;
