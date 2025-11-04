@@ -414,7 +414,23 @@ a,ul  {
 
 
   
+   .sports_article {
+     display: grid;
+     grid-template-columns: repeat(1,2fr);
+     margin-top: 1vh;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     flex-direction: column;
+       margin-left: 10vh;
+   }
 
+   .sports_article img {
+    width: 250px;
+  
+   }
+
+   
 
 
 }
