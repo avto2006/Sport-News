@@ -437,6 +437,28 @@ a,ul  {
   
    }
 
+   .footer_1 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2vh;
+   }
+
+   .footer_1 .imgg1 {
+     display: none
+   }
+
+    .inp {
+    width: 300px;
+    margin-right: 2vh
+   }
+
+   .footer_1 .imgg2 {
+    width: 200px;
+    margin-top: 3vh;
+   }
+
    
 
 
