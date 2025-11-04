@@ -371,7 +371,11 @@ a,ul  {
     align-items: center;
     text-align: center;
     margin-top: 2vh;
-    margin-right: 1vh;
+    margin-right: 3vh;
+  }
+
+  .head_text h1 {
+    margin-right: 4vh;
   }
 
  
