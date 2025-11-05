@@ -458,9 +458,24 @@ a,ul  {
     margin-right: 2vh
    }
 
+
+
+
    .footer_1 .imgg2 {
     width: 200px;
+    margin-top: 1vh;
+   
+   }
+
+   .btn {
+    width: 150px;
+    height: 45px;
     margin-top: 3vh;
+    border-radius: 12px;
+    border: none;
+    background-color: #B8C2CE;
+    font-size: 18px;
+    color: white;
    }
 
    

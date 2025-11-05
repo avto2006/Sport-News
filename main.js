@@ -29,3 +29,23 @@ hamburger.addEventListener('click', () => {
     hamburger.classList.toggle('fa-xmark')
 })
 
+
+let btn = document.querySelector('.btn');
+
+btn.addEventListener('click', () => {
+      
+    if(inp.value !== '') {
+
+        let email = inp.value.trim()
+        let pattern= /[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/i
+
+        if(pattern.test(email)) {
+           alert('Request sent successfully')
+           console.log(inp.value);
+        }  else {
+        alert('Please enter a valid email')
+    }
+    }
+})
+
+
