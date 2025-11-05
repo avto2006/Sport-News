@@ -496,6 +496,10 @@ a,ul  {
     visibility: visible;
    }
 
+   .btn:active {
+    background-color: rgb(192, 190, 190);
+   }
+
    .divv {
     margin-top: 2vh;
     font-size: 15px;
