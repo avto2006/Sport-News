@@ -266,6 +266,14 @@ a,ul  {
     display: none;
 }
 
+.btn {
+  visibility: hidden;
+}
+
+ .btn {
+  visibility: hidden;
+}
+
 
 @media screen and (max-width:768px) {
     
@@ -476,6 +484,7 @@ a,ul  {
     background-color: #B8C2CE;
     font-size: 18px;
     color: white;
+    visibility: visible;
    }
 
    
