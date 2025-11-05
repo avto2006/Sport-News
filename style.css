@@ -296,6 +296,12 @@ a,ul  {
     margin-right: 3vh;
   }
 
+  .divv {
+    text-align: center;
+    font-size: 25px;
+    color: red;
+  }
+
   
 
 
@@ -487,7 +493,10 @@ a,ul  {
     visibility: visible;
    }
 
-   
+   .divv {
+    margin-top: 2vh;
+    font-size: 15px;
+   }
 
 
 }
