@@ -1,7 +1,7 @@
 body {
     margin: 0;
     overflow-x: hidden;
-    width: 100%;
+    max-width: 100%;
 }
 
 html {
@@ -286,8 +286,8 @@ a,ul  {
    body {
     text-align: center;
     align-items: center;
-    width: 100%;
-    
+    max-width: 100%;
+
    }
 
   nav {
