@@ -1,53 +1,36 @@
-let inp = document.querySelector('.inp');
+document.addEventListener('DOMContentLoaded', () => {
+    // 1. Mobile Menu Toggle
+    const hamburger = document.querySelector('.hamburger');
+    const nav = document.querySelector('.nav');
 
-inp.addEventListener('keydown', (event) => {
-     
-    if (event.key === 'Enter' && inp.value !== '') {
-        
-
-        let email = inp.value.trim()
-        let pattern= /[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/i
-
-        if(pattern.test(email)) {
-           alert('Request sent successfully')
-           console.log(inp.value);
-        } else {
-            alert('Please enter a valid email')
-        }
-
-   
-     
+    if (hamburger && nav) {
+        hamburger.addEventListener('click', () => {
+            nav.classList.toggle('nav--active');
+            hamburger.firstElementChild.classList.toggle('fa-bars');
+            hamburger.firstElementChild.classList.toggle('fa-xmark');
+        });
     }
-})
 
-let hamburger = document.querySelector('.hamburger i');
-let nav_list = document.querySelector('.nav_list');
+    // 2. Active Link Switching on Scroll
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.nav__link');
 
-hamburger.addEventListener('click', () => {
-    nav_list.classList.toggle('active');
-    hamburger.classList.toggle('fa-bars');
-    hamburger.classList.toggle('fa-xmark')
-})
+    window.addEventListener('scroll', () => {
+        let scrollY = window.pageYOffset;
 
+        sections.forEach(current => {
+            const sectionHeight = current.offsetHeight;
+            const sectionTop = current.offsetTop - 100;
+            const sectionId = current.getAttribute('id');
 
-let btn = document.querySelector('.btn');
-let div = document.querySelector('.divv')
-
-
-btn.addEventListener('click', () => {
-      
-    if(inp.value !== '') {
-
-        let email = inp.value.trim()
-        let pattern= /[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/i
-
-        if(pattern.test(email)) {
-           div.innerHTML = 'Request sent successfully'
-           console.log(inp.value);
-        }  else {
-           div.innerHTML ='Please enter a valid email!'
-    }
-    }
-})
-
-
+            if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+                navLinks.forEach(link => {
+                    link.classList.remove('nav__link--active');
+                    if (link.getAttribute('href') === `#${sectionId}`) {
+                        link.classList.add('nav__link--active');
+                    }
+                });
+            }
+        });
+    });
+});
